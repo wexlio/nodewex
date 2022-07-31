@@ -139,4 +139,4 @@ app.get("/login", (req, res) =>{
     res.render("login");
 })
 
-app.listen(5090, (req, res) => console.log("Porfin11 activo con exito"));
+app.listen(5090, (req, res) => console.log("Porfin activo con exito"));
