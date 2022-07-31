@@ -139,4 +139,4 @@ app.get("/login", (req, res) =>{
     res.render("login");
 })
 
-app.listen(5090, (req, res) => console.log("Porfin activo con exito"));
+app.listen(process.env.PORT || 5090, (req, res) => console.log("Porfin activo con exito"));
